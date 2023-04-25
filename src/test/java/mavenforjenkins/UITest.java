@@ -31,6 +31,7 @@ public class UITest {
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		Assert.assertTrue(driver.getTitle().contains("Add"), "Title does not match to the actual title");
+		System.out.println("Sample");
 
 		//System.out.println("Varata Mamey Duurrrrrr");
 		// driver.quit();
