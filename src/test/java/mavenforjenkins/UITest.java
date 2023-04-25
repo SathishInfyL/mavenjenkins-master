@@ -30,9 +30,9 @@ public class UITest {
 		}
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
-		Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
+		Assert.assertTrue(driver.getTitle().contains("Add"), "Title does not match");
 
-		System.out.println("Varata Mamey Duurrrrrr");
+		//System.out.println("Varata Mamey Duurrrrrr");
 		// driver.quit();
 	}
 
